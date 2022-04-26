@@ -1,0 +1,35 @@
+//Yunus Emre Gumus
+//150331197
+//ygumus@myseneca.ca
+//NEE
+
+1-) Mapping the month integer value to the first three characters of the month name could have
+been accomplished using switch statements and array. Since we didn't learn arrays while we
+do this workshop we were not allowed to use array. 
+
+The code below is a short example;
+
+int main(void)
+{
+int month = 0;
+
+switch (month)
+{
+	case 1:
+		printf("JAN");
+		break;
+	case 2:
+		printf("FEB");
+		break;
+	return 0;
+
+}
+
+2-) 3 types of iteration constructs are `for`, `while` and `do-while`. In the first part, I used while
+loop and switch statements. In the second part, I used `while loop` to set log date, `for loop` to keep track of log dates and switch statements.
+
+3-) Since we use visual studio I use the local debugger for testing and it gives an error code if there
+is a problem, I find the line with the problem and if its a syntax or something basic if i forgot
+a semicolon for example I fix it but if it's not something easy I usually google the error and
+read lots of forums watching youtube videos to learn how to fix it and the information is usually not relevant
+to errors that I get but in the end, I'm finding it in some way researching all day and fix it.
