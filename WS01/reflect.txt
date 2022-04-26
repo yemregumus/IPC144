@@ -1,0 +1,8 @@
+Yunus Emre Gumus
+150331197
+ygumus@myseneca.ca
+NEE
+
+1- Today I learned to create a C program that displays text to the screen, then I upgrade it and added a sign that displays "Introduction to C Programming" and my name as a creator of the program.
+2- SSH is the security protocol between a student’s computer and Seneca’s servers that provides a secure connection, today I used it while I`m logging into the matrix server with my username and password for this week’s workshop.
+3- SFTP is another security protocol that provides secure file transfer, today I used it while uploading my first workshop to the matrix server.
