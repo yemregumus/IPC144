@@ -1,0 +1,4 @@
+﻿  w6p2.c
+D:\school stuff\2 IPC144\Workshop6.NEE\p2\w6p2.c(122,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\school stuff\2 IPC144\Workshop6.NEE\p2\w6p2.c(139,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  p2.vcxproj -> D:\school stuff\2 IPC144\Workshop6.NEE\p2\Debug\p2.exe

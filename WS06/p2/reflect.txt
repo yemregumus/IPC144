@@ -1,0 +1,55 @@
+Q1A1 - To begin with, the structure requires more memory than other notions. 
+The structure 'ReportData,' for example, has 9 members, including 6 integer 
+and 3 double variables. In C, an integer takes up 4 bytes and takes up 8 bytes twice.
+"ReportData" is a named structure with 48 bytes in 32-bit contexts.It requires 
+at least 48 bytes of RAM to function properly. There are two separate ways to do this.
+
+1-) First and foremost is a data transmitted structure. 
+
+2-) Second addresses are used to transmit data. "DisplayReportData" may be sent by value to a function
+and all of its members can be accessed by dot (.).
+
+For Example:
+struct ReportData
+{
+ int sku;
+ double Product_rate;
+}
+ Now, we can access information by using below code:
+struct ReportData reportdata[];
+printf("SKU: ",reportdata.sku);
+printf("Price ",reportdata.Product_rate);
+
+We can provide information on the structure's address by passing the structure to function, implying 
+that the structure's address is not sent across the structure and its members. If we send information 
+via an address, it will take up less memory. A function can be written like the below code:
+void displayReportData(struct ReportData reportdata[Max_Products])
+
+
+Q1A1 - ReportData and CatFoodInfo members are mixed together. Using layered structs, we can avoid 
+writing the same members again. ReportData can be nested with CatFoodInfo, and members that bring 
+the same data to CatFoodInfo can be removed. We could use the struct CatFoodInfo within ReportData 
+instead of rewriting the same parts. The following code shows how to change struct:
+
+struct ReportData
+{
+ struct CatFoodInfo data[];
+ int sku;
+ double rate;
+ int calories;
+ double weightLbs;
+ double kg; int g;
+ double sumServe;
+ double perServe;
+ double calPerServe;
+};
+The print statement would be modified into:
+printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf",
+reportdata[i].data[i].sku, reportdata[i].data[i].rate,
+reportdata[i].data[i].weightLbs, reportdata[i].data[i].kg, reportdata[i].data[i].g,
+reportdata[i].data[i].sumServe,reportdata[i].data[i].perServe,reportdata[i].data[i]
+.calPerServe); 
+
+Of course i didn`t write my code similar to above code because i read reflection questions after 
+i finish writing it, if there was a workshop 7 i would read the reflection questions first so i 
+can get a good idea to write it instead of struggling how to fix the puzzle.
