@@ -1,0 +1,32 @@
+1-)It's tough to understand, debug, and test programs with a long single list of instructions.->
+->As a result, user-defined types (structures) aid in the resolution of these issues.->
+->In this workshop, for example, I utilised;
+
+struct PlayerInfo
+{
+	int lives;
+	char symbol;
+	int treasuresFound;
+	char positionHistory[MAX_PATH_LENGTH];
+};
+
+I've put all of the player's information (lives, symbol, treasures, and position) into a->
+->single structure called player info, which I've placed in the main function. This would help to->
+->avoid having to write the same code over and over again, and it could be readily called in the->
+->program as many times as needed, reducing code repeatability and increasing code reusability.->
+->This also allows for a reduction in program size and complexity. Furthermore, it is simple to->
+->discover errors in the software during debugging. It also gives programmers a clear knowledge-> 
+->of the complex problem because it is broken into sub-parts.
+
+2-)If we need to keep the history of games played in this workshop, including the endgame results,->
+->we can add another structure that includes the user's history of games played and also stores the->
+->results. That structure can be added to the main function and called whenever we need to access the->
+->data about the game's history.
+
+3-)Because this workshop requires more work than previous workshops, the part that bothered me and->
+->took more time was displaying all of the messages and symbols when the user enter the moves, because->
+->all messages and symbols that would be displayed had to be in accordance with the move limits, lives->
+->left with the user, place of treasures, empty spaces, bomb, and life insurance payout. I used course->
+->notes to assist me perform properly, and I attempted to link it to the examples in the notes. After that,->
+->I went over all of the requirements that needed to be met and connected them. Despite the fact that->
+->I made several errors during debugging, I was eventually successful.
