@@ -1,0 +1,6 @@
+﻿  w4p1.c
+D:\school stuff\2 IPC144\IPC144-w4-main\IPC144-w4-main\p1\w4p1.c(94,12): warning C4473: 'scanf_s' : not enough arguments passed for format string
+D:\school stuff\2 IPC144\IPC144-w4-main\IPC144-w4-main\p1\w4p1.c(94,12): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+D:\school stuff\2 IPC144\IPC144-w4-main\IPC144-w4-main\p1\w4p1.c(94,12): message : the missing variadic argument 2 is required by format string '%c'
+D:\school stuff\2 IPC144\IPC144-w4-main\IPC144-w4-main\p1\w4p1.c(94,12): message : this argument is used as a buffer size
+  p1.vcxproj -> D:\school stuff\2 IPC144\IPC144-w4-main\IPC144-w4-main\p1\x64\Debug\p1.exe

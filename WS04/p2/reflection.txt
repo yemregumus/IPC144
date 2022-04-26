@@ -1,0 +1,38 @@
+//Yunus Emre Gumus
+//150331197
+//ygumus@myseneca.ca
+//NEE
+//Reflection Workshop-4
+
+
+1-) We can use parrallel arrays for group a data related to eachother. Each index of array corresponds->
+->to a particular group of information. If we need to give an example considering 2 array;
+
+
+String[] itemName = {"Potato", "Tomato", "Lemon", "Eggplant"};
+int[] itemPrice = {5, 4, 3, 8};
+
+Here at index 0 both arrays stores an information about 4 item. There are total 4 items above, first->
+->array stores name of the item and second array stores the price of the item. We can use key to group->
+->data. For example, at key 0 both arrays contain information about first item which is Potato for $5->
+->Thus key is important and used as index of array to get the data.
+
+2-) In my opinion, it should be a rule to start iteration with 0 because index always starts from 0.
+An example from my code from workshop 4;
+
+for (item = 0; item < listSize; item++)
+
+So as we can see item starts from 0, and increments continuing as big as assigned size of listSize. 
+
+3-)I explain it to my 4 years old like this today;
+
+An array is a contiguous space available in memory.Consider a refrigerator having 5 partitions in it->
+->for drinks.In computer memory, we can say this refrigerator is an array. Now to know from which rack->
+->you need to take out pop or in which partition you will place beer and in which rack you will place->
+->water etc we give an integer to every partition. We have a restriction that refrigerator should contain->
+->only similar type of stuff like pop, beer or water.In terms of computers, it is called data-types.->
+->And we give integer starting from 0 to each partition.
+
+In the end she said; -Daddy, are you a scientist? 
+
+Maybe its too early for her age :)
