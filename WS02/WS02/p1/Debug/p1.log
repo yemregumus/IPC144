@@ -1,5 +1,0 @@
-﻿  w2p1.c
-D:\school stuff\2 IPC144\Workshop2.NEE\IPC-Workshops-master\IPC-Workshops-master\WS02\p1\w2p1.c(32,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-D:\school stuff\2 IPC144\Workshop2.NEE\IPC-Workshops-master\IPC-Workshops-master\WS02\p1\w2p1.c(36,35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-D:\school stuff\2 IPC144\Workshop2.NEE\IPC-Workshops-master\IPC-Workshops-master\WS02\p1\w2p1.c(24,1): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  p1.vcxproj -> D:\school stuff\2 IPC144\Workshop2.NEE\IPC-Workshops-master\IPC-Workshops-master\WS02\p1\Debug\p1.exe
